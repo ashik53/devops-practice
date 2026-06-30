@@ -1,0 +1,21 @@
+# === Secrets — NEVER commit these ===
+.env
+.env.local
+.env.production
+*.pem
+*.key
+*.p12
+secrets.yaml
+credentials.json
+
+# === Terraform ===
+.terraform/
+*.tfstate
+*.tfstate.backup
+*.tfvars
+
+# === Editor and OS junk ===
+.vscode/
+.DS_Store
+*.swp
+*~
